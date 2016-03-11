@@ -78,6 +78,9 @@ parameter: sortType		1: low to high sorting, 2: high to low sorting
 return	 :				The sorted two column array	
 
 */
+
+// STILL NEED TO REFACTOR CODE TO ENSURE THERE ARE NO MEMORY LEAKS - see j.champion code
+
 __declspec(dllexport) LPXLOPER sort_ex(LPXLOPER x, int sortType){
 
 	static XLOPER	resultBuffer[dimResult],		// Return Data Array
@@ -85,7 +88,7 @@ __declspec(dllexport) LPXLOPER sort_ex(LPXLOPER x, int sortType){
 					tempTypeMulti,					// xltypeMulti in an XLOPER for passing
 					retMulti;						// return data structure
 	
-
+   int dummy = 0; // dont use
 
 	short			hasxMulti = 0,					// flags to indicate memory has been allocated
 					error = -1;						// -1 if no error; error code otherwise
