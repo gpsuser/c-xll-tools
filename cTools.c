@@ -9,7 +9,6 @@
 
 	The authors of this project would like to thank these two sources for their contribution. 
 */
-
 #include <stdlib.h> //refernce qsort() here
 
 #include "cTools.h"
@@ -101,6 +100,7 @@ __declspec(dllexport) LPXLOPER sort_ex(LPXLOPER x, int sortType){
 	Data* s;										// the data structure that holds the column data
 	ULONG i;
 	LPXLOPER tempPtr;
+
 
 
 	// Initialize variables
