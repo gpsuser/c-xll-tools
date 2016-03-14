@@ -79,7 +79,12 @@ return	 :				The sorted two column array
 
 */
 
+// 
+// TO DO:
 // STILL NEED TO REFACTOR CODE TO ENSURE THERE ARE NO MEMORY LEAKS - see j.champion code
+// also think of reading in an array
+// store array data in struct
+// sort by first member of struct - this should allow a column sort with multiple columns??
 
 __declspec(dllexport) LPXLOPER sort_ex(LPXLOPER x, int sortType){
 
