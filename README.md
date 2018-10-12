@@ -1,5 +1,5 @@
 # c-api-tools : 
-[a simple sorting engine for excel using the excel c - api compiled using VSTO 2005]
+[a simple sorting engine for excel using the excel c - api compiled using VSTO]
 
 
 ## Build tools that interface with Excel, using C 
@@ -41,4 +41,4 @@ This means that all functions in the xll will be available/visible to any spread
 
 ## References
 
-Microsoft Excel 97 Developer's Kit, Microsoft Press, 1997
+Microsoft Excel  Developer's Kit, Microsoft Press
