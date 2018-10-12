@@ -25,7 +25,7 @@ This projct considers how a c based sorting function _sort_ex()_ can be called f
 ## Configuration
 
 Ensure that the cTools.xll is installed and configured correctly:
-+ in Excel 2013:  File > Options > Addins > Manage Excel Addins > Go > Browse (to the .xll) 
++ in Excel:  File > Options > Addins > Manage Excel Addins > Go > Browse (to the .xll) 
 
 Following this, the Add-In function features can be explored in more detail with the help of Excel's function gui. This gui displays, amongst other things, the Add-In's function signatures and parameter information.
 
