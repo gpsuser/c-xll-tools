@@ -1,4 +1,4 @@
-# c-api-tools : 
+# c-xll-tools : 
 [a simple sorting engine for excel using the excel c - api compiled using VSTO]
 
 
@@ -8,7 +8,7 @@ Manipulating data in excel is often done faster using the Excel C-API. We consid
 
 ## Introduction
 
-c-api-tools is a platfom for building customised data manipulation tools that interface with Excel, at high speed (native C code), using the Microsoft Excel SDK and Excel C-API.
+c-xll-tools is a platfom for building customised data manipulation tools that interface with Excel, at high speed (native C code), using the Microsoft Excel SDK and Excel C-API.
 
 These tools are compiled into an xll which, once loaded, integrate seamlessly with Excel, expanding the number of functions that are on offer within Excel's function suite.
 
